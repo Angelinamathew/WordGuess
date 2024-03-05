@@ -1,6 +1,8 @@
 package com.github.zipcodewilmington;
 
 
+import com.github.zipcodewilmington.sample.WordGuess;
+
 /**
  * @author xt0fer
  * @version 1.0.0
@@ -8,7 +10,10 @@ package com.github.zipcodewilmington;
  */
 //Angelina
 public class Hangman {
+
     public static void main(String[] args) {
+        WordGuess game = new WordGuess();
+        game.runGame();
 
     }
 
